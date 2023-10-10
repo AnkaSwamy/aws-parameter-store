@@ -26,7 +26,7 @@ variable "params" {
     { name = "roboshop.dev.shipping.cart_endpoint", value = "cart-dev.ankadevopsb73.store:8080", type = "String" },
     { name = "roboshop.dev.shipping.db_host", value = "mysql-dev.ankadevopsb73.store", type = "String" },
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
-    { name = "roboshop.dev.user.redis_host", value = "redis-dev.rdevopsb73.store", type = "String" },
+    { name = "roboshop.dev.user.redis_host", value = "redis-dev.ankadevopsb73.store", type = "String" },
     { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.ankadevopsb73.store:27017/users", type = "String" },
     { name = "roboshop.dev.dispatch.amqp_host", value = "dispatch-dev.ankadevopsb73.store", type = "String" },
 
