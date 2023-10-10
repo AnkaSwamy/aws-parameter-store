@@ -28,6 +28,7 @@ variable "params" {
     { name = "roboshop.dev.user.mongo", value = "true", type = "String" },
     { name = "roboshop.dev.user.redis_host", value = "redis-dev.rdevopsb73.store", type = "String" },
     { name = "roboshop.dev.user.mongo_url", value = "mongodb://mongodb-dev.ankadevopsb73.store:27017/users", type = "String" },
+    { name = "roboshop.dev.dispatch.amqp_host", value = "dispatch-dev.ankadevopsb73.store", type = "String" },
 
 
     ### Passwords will be never part of git repos, Usually in organizations we create them manually. Meaning whom ever have access they will provision these secrets in parameter store.
